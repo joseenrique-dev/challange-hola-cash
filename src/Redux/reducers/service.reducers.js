@@ -5,7 +5,7 @@ const initialState = {
   isFetching: false,
 };
 
-const servicesReducer = (state = initialState, action) => {
+const serviceReducer = (state = initialState, action) => {
   switch (action.type) {
     case digitalServicesTypes.GET_DIGITAL_SERVICES:
       return {
@@ -28,4 +28,4 @@ const servicesReducer = (state = initialState, action) => {
   }
 };
 
-export default servicesReducer;
+export default serviceReducer;

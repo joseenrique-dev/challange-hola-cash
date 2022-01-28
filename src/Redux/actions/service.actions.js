@@ -1,3 +1,5 @@
+import digitalServices from '../../service/digitalServices';
+
 export const digitalServicesTypes = {
   GET_DIGITAL_SERVICES: '[SERVICES] GET_DIGITAL_SERVICES',
   REQUEST_DIGITAL_SERVICES: '[SERVICES] REQUEST_DIGITAL_SERVICES',
@@ -9,9 +11,9 @@ export const digitalServicesTypes = {
  * Digital Services
  */
 
-export const digitalServices = () => ({
-  type: digitalServicesTypes.GET_DIGITAL_SERVICES,
-});
+// export const getDigitalServices = () => ({
+//   type: digitalServicesTypes.GET_DIGITAL_SERVICES,
+// });
 
 export const digitalServicesRequest = () => ({
   type: digitalServicesTypes.REQUEST_DIGITAL_SERVICES,
