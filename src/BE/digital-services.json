@@ -1,0 +1,146 @@
+{
+  "digitalServices": {
+    "digital_services": [
+      {
+        "service_group_id": 1,
+        "service_group_name": "Telefonía móvil",
+        "service_group_avatar": "https://d3k50j0gctp66k.cloudfront.net/digital_services/service_groups/2/1.png",
+        "providers": [
+          {
+            "provider_id": 1,
+            "provider_name": "Telcel",
+            "provider_avatar": "https://d3k50j0gctp66k.cloudfront.net/digital_services/providers/1.png",
+            "provider_description": "Comprando recarga de Telcel",
+            "cashback_percentage": 0.03
+          },
+          {
+            "provider_id": 73,
+            "provider_name": "Telcel Postpago",
+            "provider_avatar": "https://d3k50j0gctp66k.cloudfront.net/digital_services/providers/73.png",
+            "provider_description": "Pagando recibo de Telcel Postpago (Pago de Recibo)",
+            "cashback_percentage": 0
+          },
+          {
+            "provider_id": 4,
+            "provider_name": "Unefon",
+            "provider_avatar": "https://d3k50j0gctp66k.cloudfront.net/digital_services/providers/4.png",
+            "provider_description": "Comprando recarga de Unefon",
+            "cashback_percentage": 0
+          },
+          {
+            "provider_id": 2,
+            "provider_name": "Movistar",
+            "provider_avatar": "https://d3k50j0gctp66k.cloudfront.net/digital_services/providers/2.png",
+            "provider_description": "Comprando recarga de Movistar",
+            "cashback_percentage": 0
+          }
+        ]
+      },
+      {
+        "service_group_id": 2,
+        "service_group_name": "Agua, Luz y Gas",
+        "service_group_avatar": "https://d3k50j0gctp66k.cloudfront.net/digital_services/service_groups/2/2.png",
+        "providers": [
+          {
+            "provider_id": 9,
+            "provider_name": "CFE",
+            "provider_avatar": "https://d3k50j0gctp66k.cloudfront.net/digital_services/providers/9.png",
+            "provider_description": "Pagando recibo de CFE",
+            "cashback_percentage": 0.5
+          },
+          {
+            "provider_id": 10,
+            "provider_name": "Engie MaxiGas",
+            "provider_avatar": "https://d3k50j0gctp66k.cloudfront.net/digital_services/providers/10.png",
+            "provider_description": "Pagando recibo de Engie Maxigas",
+            "cashback_percentage": 0
+          },
+          {
+            "provider_id": 12,
+            "provider_name": "Naturgy (Gas Natural)",
+            "provider_avatar": "https://d3k50j0gctp66k.cloudfront.net/digital_services/providers/12.png",
+            "provider_description": "Pagando recibo de Naturgy (Gas Natural)",
+            "cashback_percentage": 0
+          },
+          {
+            "provider_id": 54,
+            "provider_name": "SADM (Monterrey)",
+            "provider_avatar": "https://d3k50j0gctp66k.cloudfront.net/digital_services/providers/54.png",
+            "provider_description": "Pagando recibo de Agua y Drenaje de Monterrey",
+            "cashback_percentage": 0
+          },
+          {
+            "provider_id": 52,
+            "provider_name": "SACMEX (CDMX)",
+            "provider_avatar": "https://d3k50j0gctp66k.cloudfront.net/digital_services/providers/52.png",
+            "provider_description": "Pagando recibo de SACMEX (CDMX)",
+            "cashback_percentage": 0
+          }
+        ]
+      },
+      {
+        "service_group_id": 3,
+        "service_group_name": "Internet y TV",
+        "service_group_avatar": "https://d3k50j0gctp66k.cloudfront.net/digital_services/service_groups/2/3.png",
+        "providers": [
+          {
+            "provider_id": 42,
+            "provider_name": "Telmex",
+            "provider_avatar": "https://d3k50j0gctp66k.cloudfront.net/digital_services/providers/42.png",
+            "provider_description": "Pagando recibo de Telmex",
+            "cashback_percentage": 0.2
+          },
+          {
+            "provider_id": 46,
+            "provider_name": "Izzi Telecom",
+            "provider_avatar": "https://d3k50j0gctp66k.cloudfront.net/digital_services/providers/46.png",
+            "provider_description": "Pagando recibo de IZZI Telecom",
+            "cashback_percentage": 0
+          }
+        ]
+      },
+      {
+        "service_group_id": 4,
+        "service_group_name": "Compras",
+        "service_group_avatar": "https://d3k50j0gctp66k.cloudfront.net/digital_services/service_groups/2/4.png",
+        "providers": [
+          {
+            "provider_id": 63,
+            "provider_name": "Google Play",
+            "provider_avatar": "https://d3k50j0gctp66k.cloudfront.net/digital_services/providers/63.png",
+            "provider_description": "Comprando tarjeta de regalo de Google Play",
+            "cashback_percentage": 0
+          },
+          {
+            "provider_id": 34,
+            "provider_name": "Amazon",
+            "provider_avatar": "https://d3k50j0gctp66k.cloudfront.net/digital_services/providers/34.png",
+            "provider_description": "Comprando tarjeta de Amazon",
+            "cashback_percentage": 0.01
+          },
+          {
+            "provider_id": 71,
+            "provider_name": "Innovasport",
+            "provider_avatar": "https://d3k50j0gctp66k.cloudfront.net/digital_services/providers/71.png",
+            "provider_description": "Comprando tarjeta de regalo para Innovasport o Innvictus",
+            "cashback_percentage": 1
+          },
+          {
+            "provider_id": 23,
+            "provider_name": "Enviaflores.com",
+            "provider_avatar": "https://d3k50j0gctp66k.cloudfront.net/digital_services/providers/23.png",
+            "provider_description": "Comprando flores a domicilio por EnviaFlores",
+            "cashback_percentage": 0
+          },
+          {
+            "provider_id": 24,
+            "provider_name": "VRIM (Gastos Medicos Menores)",
+            "provider_avatar": "https://d3k50j0gctp66k.cloudfront.net/digital_services/providers/24.png",
+            "provider_description": "Comprando tarjeta médica VRIM",
+            "cashback_percentage": 0
+          }
+        ]
+      }
+    ]
+  }
+}
