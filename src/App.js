@@ -1,21 +1,32 @@
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
 import './App.css';
-import digitalServices from './service/digitalServices';
+import CardService from './Components/CardService';
+import { getDigitalServices } from './Redux/actions/service.actions';
 
 const App = () => {
-  // const [digitalSercicesData, setDigitalSercicesData] = useState([]);
+  const dispatch = useDispatch();
+  const servicesDate = useSelector((store) => store.serviceReducer.data);
+
   useEffect(() => {
-    digitalServices().then((data) => {
-      console.log(data);
-      // setDigitalSercicesData(data.digitalServices.digital_services);
-    });
-  }, []);
+    console.log(servicesDate?.digitalServices?.digital_services);
+    dispatch(getDigitalServices());
+  }, [dispatch, servicesDate]);
 
   return (
     <div className='container'>
       <h1>Digital Services</h1>
+      {servicesDate?.digitalServices?.digital_services.length > 0 &&
+        servicesDate?.digitalServices?.digital_services.map((data) => {
+          return (
+            <div key={data.service_group_id}>
+              <CardService service={{ data }} />
+            </div>
+          );
+        })}
     </div>
   );
 };
 
-export default App;
+export default React.memo(App);
