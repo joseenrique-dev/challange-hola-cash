@@ -68,6 +68,8 @@ img {
   align-items: center;
   padding: 18px;
 }
+
+/* CARD SERVICE */
 .card-element:hover {
   background: #f2f2f233;
   overflow: hidden;
@@ -110,4 +112,19 @@ hr {
   flex-direction: column;
   align-items: baseline;
   margin-left: 15px;
+}
+
+.provider-cash-back {
+  padding: 3px;
+  background: #ecb94e;
+  border-radius: 5px;
+  font-size: 13px;
+  color: #f5ddaa;
+  margin-top: 8px;
+}
+
+.non-content {
+  margin-top: 15px;
+  font-size: 17px;
+  font-weight: 400;
 }

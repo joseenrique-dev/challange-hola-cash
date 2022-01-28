@@ -44,6 +44,9 @@ const App = () => {
           <div>
             <ServiceProvider providers={selectedProvider} />
           </div>
+          {selectedProvider.length === 0 && (
+            <div className='non-content'>No content to show 😧</div>
+          )}
         </div>
       </div>
     </div>
