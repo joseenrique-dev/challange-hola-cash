@@ -5,8 +5,9 @@ export const CardService = ({ service }) => {
   const { data } = service;
   console.log('Show names:', data);
   return (
-    <div>
-      <h1>{data.service_group_avatar}</h1>
+    <div className='card-element'>
+      <img src={data.service_group_avatar} alt='' />
+      <span className='service-description'>{data.service_group_name}</span>
     </div>
   );
 };

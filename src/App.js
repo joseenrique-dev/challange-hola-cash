@@ -15,16 +15,23 @@ const App = () => {
   }, [dispatch, servicesDate]);
 
   return (
-    <div className='container'>
-      <h1>Digital Services</h1>
-      {servicesDate?.digitalServices?.digital_services.length > 0 &&
-        servicesDate?.digitalServices?.digital_services.map((data) => {
-          return (
-            <div key={data.service_group_id}>
-              <CardService service={{ data }} />
-            </div>
-          );
-        })}
+    <div className='App'>
+      <div>
+        <div className='container'>
+          <div className='title'>Digital Services</div>
+          <div className='card-container'>
+            {/* <h1>Digital Services</h1> */}
+            {servicesDate?.digitalServices?.digital_services.length > 0 &&
+              servicesDate?.digitalServices?.digital_services.map((data) => {
+                return (
+                  <div key={data.service_group_id}>
+                    <CardService service={{ data }} />
+                  </div>
+                );
+              })}
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

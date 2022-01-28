@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #faf7f7;
 }
 
 .App-logo {
@@ -35,4 +36,48 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+img {
+  width: 55px;
+  height: 55px;
+}
+
+.container {
+  background-color: #fefffe;
+  width: 30%;
+  margin: auto;
+  border-radius: 50px;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.card-element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px;
+}
+.card-element:hover {
+  background: #f2f2f233;
+  overflow: hidden;
+  border-radius: 13px;
+  cursor: pointer;
+  box-shadow: 0 0 5px 2px #d0d0d0;
+  cursor: pointer;
+}
+
+.service-description {
+  font-family: initial;
+  margin-top: 5px;
 }
