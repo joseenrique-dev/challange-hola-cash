@@ -3,7 +3,7 @@ import React from 'react';
 export const CardService = ({ service }) => {
   debugger;
   const { data } = service;
-  console.log('Show names:', data);
+
   return (
     <div className='card-element'>
       <img src={data.service_group_avatar} alt='' />
